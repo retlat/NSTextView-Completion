@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA459751EE3D5FA00E0EF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA459741EE3D5FA00E0EF7E /* AppDelegate.swift */; };
+		5CA459771EE3D5FA00E0EF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA459761EE3D5FA00E0EF7E /* ViewController.swift */; };
+		5CA459791EE3D5FA00E0EF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA459781EE3D5FA00E0EF7E /* Assets.xcassets */; };
+		5CA459871EE3D5FA00E0EF7E /* SimpleEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA459861EE3D5FA00E0EF7E /* SimpleEditorTests.swift */; };
+		5CA459921EE3D5FA00E0EF7E /* SimpleEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA459911EE3D5FA00E0EF7E /* SimpleEditorUITests.swift */; };
+		5CA459A01EE3D66700E0EF7E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4599F1EE3D66700E0EF7E /* main.swift */; };
+		5CA459A21EE3D7C100E0EF7E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA459A11EE3D7C100E0EF7E /* Menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA459831EE3D5FA00E0EF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA459691EE3D5FA00E0EF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA459701EE3D5FA00E0EF7E;
+			remoteInfo = SimpleEditor;
+		};
+		5CA4598E1EE3D5FA00E0EF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA459691EE3D5FA00E0EF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA459701EE3D5FA00E0EF7E;
+			remoteInfo = SimpleEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA459711EE3D5FA00E0EF7E /* SimpleEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA459741EE3D5FA00E0EF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CA459761EE3D5FA00E0EF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CA459781EE3D5FA00E0EF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CA4597D1EE3D5FA00E0EF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA459821EE3D5FA00E0EF7E /* SimpleEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA459861EE3D5FA00E0EF7E /* SimpleEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEditorTests.swift; sourceTree = "<group>"; };
+		5CA459881EE3D5FA00E0EF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA4598D1EE3D5FA00E0EF7E /* SimpleEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA459911EE3D5FA00E0EF7E /* SimpleEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEditorUITests.swift; sourceTree = "<group>"; };
+		5CA459931EE3D5FA00E0EF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA4599F1EE3D66700E0EF7E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5CA459A11EE3D7C100E0EF7E /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA4596E1EE3D5FA00E0EF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA4597F1EE3D5FA00E0EF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA4598A1EE3D5FA00E0EF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA459681EE3D5FA00E0EF7E = {
+			isa = PBXGroup;
+			children = (
+				5CA459731EE3D5FA00E0EF7E /* SimpleEditor */,
+				5CA459851EE3D5FA00E0EF7E /* SimpleEditorTests */,
+				5CA459901EE3D5FA00E0EF7E /* SimpleEditorUITests */,
+				5CA459721EE3D5FA00E0EF7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA459721EE3D5FA00E0EF7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA459711EE3D5FA00E0EF7E /* SimpleEditor.app */,
+				5CA459821EE3D5FA00E0EF7E /* SimpleEditorTests.xctest */,
+				5CA4598D1EE3D5FA00E0EF7E /* SimpleEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA459731EE3D5FA00E0EF7E /* SimpleEditor */ = {
+			isa = PBXGroup;
+			children = (
+				5CA459741EE3D5FA00E0EF7E /* AppDelegate.swift */,
+				5CA459761EE3D5FA00E0EF7E /* ViewController.swift */,
+				5CA4599F1EE3D66700E0EF7E /* main.swift */,
+				5CA459A11EE3D7C100E0EF7E /* Menu.swift */,
+				5CA459781EE3D5FA00E0EF7E /* Assets.xcassets */,
+				5CA4597D1EE3D5FA00E0EF7E /* Info.plist */,
+			);
+			path = SimpleEditor;
+			sourceTree = "<group>";
+		};
+		5CA459851EE3D5FA00E0EF7E /* SimpleEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA459861EE3D5FA00E0EF7E /* SimpleEditorTests.swift */,
+				5CA459881EE3D5FA00E0EF7E /* Info.plist */,
+			);
+			path = SimpleEditorTests;
+			sourceTree = "<group>";
+		};
+		5CA459901EE3D5FA00E0EF7E /* SimpleEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA459911EE3D5FA00E0EF7E /* SimpleEditorUITests.swift */,
+				5CA459931EE3D5FA00E0EF7E /* Info.plist */,
+			);
+			path = SimpleEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA459701EE3D5FA00E0EF7E /* SimpleEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA459961EE3D5FA00E0EF7E /* Build configuration list for PBXNativeTarget "SimpleEditor" */;
+			buildPhases = (
+				5CA4596D1EE3D5FA00E0EF7E /* Sources */,
+				5CA4596E1EE3D5FA00E0EF7E /* Frameworks */,
+				5CA4596F1EE3D5FA00E0EF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleEditor;
+			productName = SimpleEditor;
+			productReference = 5CA459711EE3D5FA00E0EF7E /* SimpleEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA459811EE3D5FA00E0EF7E /* SimpleEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA459991EE3D5FA00E0EF7E /* Build configuration list for PBXNativeTarget "SimpleEditorTests" */;
+			buildPhases = (
+				5CA4597E1EE3D5FA00E0EF7E /* Sources */,
+				5CA4597F1EE3D5FA00E0EF7E /* Frameworks */,
+				5CA459801EE3D5FA00E0EF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA459841EE3D5FA00E0EF7E /* PBXTargetDependency */,
+			);
+			name = SimpleEditorTests;
+			productName = SimpleEditorTests;
+			productReference = 5CA459821EE3D5FA00E0EF7E /* SimpleEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CA4598C1EE3D5FA00E0EF7E /* SimpleEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA4599C1EE3D5FA00E0EF7E /* Build configuration list for PBXNativeTarget "SimpleEditorUITests" */;
+			buildPhases = (
+				5CA459891EE3D5FA00E0EF7E /* Sources */,
+				5CA4598A1EE3D5FA00E0EF7E /* Frameworks */,
+				5CA4598B1EE3D5FA00E0EF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA4598F1EE3D5FA00E0EF7E /* PBXTargetDependency */,
+			);
+			name = SimpleEditorUITests;
+			productName = SimpleEditorUITests;
+			productReference = 5CA4598D1EE3D5FA00E0EF7E /* SimpleEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA459691EE3D5FA00E0EF7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = retlat;
+				TargetAttributes = {
+					5CA459701EE3D5FA00E0EF7E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2W6M933SN7;
+						ProvisioningStyle = Automatic;
+					};
+					5CA459811EE3D5FA00E0EF7E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2W6M933SN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CA459701EE3D5FA00E0EF7E;
+					};
+					5CA4598C1EE3D5FA00E0EF7E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2W6M933SN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CA459701EE3D5FA00E0EF7E;
+					};
+				};
+			};
+			buildConfigurationList = 5CA4596C1EE3D5FA00E0EF7E /* Build configuration list for PBXProject "SimpleEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CA459681EE3D5FA00E0EF7E;
+			productRefGroup = 5CA459721EE3D5FA00E0EF7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA459701EE3D5FA00E0EF7E /* SimpleEditor */,
+				5CA459811EE3D5FA00E0EF7E /* SimpleEditorTests */,
+				5CA4598C1EE3D5FA00E0EF7E /* SimpleEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA4596F1EE3D5FA00E0EF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA459791EE3D5FA00E0EF7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA459801EE3D5FA00E0EF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA4598B1EE3D5FA00E0EF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA4596D1EE3D5FA00E0EF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA459771EE3D5FA00E0EF7E /* ViewController.swift in Sources */,
+				5CA459751EE3D5FA00E0EF7E /* AppDelegate.swift in Sources */,
+				5CA459A21EE3D7C100E0EF7E /* Menu.swift in Sources */,
+				5CA459A01EE3D66700E0EF7E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA4597E1EE3D5FA00E0EF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA459871EE3D5FA00E0EF7E /* SimpleEditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA459891EE3D5FA00E0EF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA459921EE3D5FA00E0EF7E /* SimpleEditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA459841EE3D5FA00E0EF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA459701EE3D5FA00E0EF7E /* SimpleEditor */;
+			targetProxy = 5CA459831EE3D5FA00E0EF7E /* PBXContainerItemProxy */;
+		};
+		5CA4598F1EE3D5FA00E0EF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA459701EE3D5FA00E0EF7E /* SimpleEditor */;
+			targetProxy = 5CA4598E1EE3D5FA00E0EF7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CA459941EE3D5FA00E0EF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CA459951EE3D5FA00E0EF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5CA459971EE3D5FA00E0EF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6M933SN7;
+				INFOPLIST_FILE = SimpleEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retlat.SimpleEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5CA459981EE3D5FA00E0EF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6M933SN7;
+				INFOPLIST_FILE = SimpleEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retlat.SimpleEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5CA4599A1EE3D5FA00E0EF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6M933SN7;
+				INFOPLIST_FILE = SimpleEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retlat.SimpleEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleEditor.app/Contents/MacOS/SimpleEditor";
+			};
+			name = Debug;
+		};
+		5CA4599B1EE3D5FA00E0EF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6M933SN7;
+				INFOPLIST_FILE = SimpleEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retlat.SimpleEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleEditor.app/Contents/MacOS/SimpleEditor";
+			};
+			name = Release;
+		};
+		5CA4599D1EE3D5FA00E0EF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6M933SN7;
+				INFOPLIST_FILE = SimpleEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retlat.SimpleEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleEditor;
+			};
+			name = Debug;
+		};
+		5CA4599E1EE3D5FA00E0EF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2W6M933SN7;
+				INFOPLIST_FILE = SimpleEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.retlat.SimpleEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA4596C1EE3D5FA00E0EF7E /* Build configuration list for PBXProject "SimpleEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA459941EE3D5FA00E0EF7E /* Debug */,
+				5CA459951EE3D5FA00E0EF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA459961EE3D5FA00E0EF7E /* Build configuration list for PBXNativeTarget "SimpleEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA459971EE3D5FA00E0EF7E /* Debug */,
+				5CA459981EE3D5FA00E0EF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA459991EE3D5FA00E0EF7E /* Build configuration list for PBXNativeTarget "SimpleEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA4599A1EE3D5FA00E0EF7E /* Debug */,
+				5CA4599B1EE3D5FA00E0EF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA4599C1EE3D5FA00E0EF7E /* Build configuration list for PBXNativeTarget "SimpleEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA4599D1EE3D5FA00E0EF7E /* Debug */,
+				5CA4599E1EE3D5FA00E0EF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA459691EE3D5FA00E0EF7E /* Project object */;
+}
